@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1{
+        color:white;
+        position: relative;
+        text-align: center;
+        
+    }
+    h1::before{
+content: "The_one_webTeachnology";
+position: absolute;
+color: darkcyan;
+overflow: hidden;
+
+border-right: 1px solid grey;
+animation: load 4s linear infinite;
+
+    }
+    @keyframes load {
+        0%{
+            width: 0%;
+        }
+        80%,100%{
+            width: 22%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>The_One_WebTechnology</h1>
+</body>
+</html>
